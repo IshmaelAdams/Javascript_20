@@ -1,0 +1,56 @@
+
+html {
+    font-size: 10px;
+    background: url('./mountain.pixabay.jpg') center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+}
+
+body,html{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.key {
+    padding: 1rem ;
+    margin: 10px;
+    border: .4rem solid rgba(red, green, blue, alpha); 
+    border-radius: .5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px .5px 5px rgba(0,0,0,0.4);
+    height: auto;
+    width: 10rem;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: all 0.07s;
+    text-shadow: 0 0 .1rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: violet;
+    box-shadow: 0 0 1rem violet;
+}
+
+kbd {
+    display: block;
+    font-size: 2rem;
+}
+
+.sound {
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color:white;
+}
